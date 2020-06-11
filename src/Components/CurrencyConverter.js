@@ -51,7 +51,7 @@ const withCurrency = (
         { name: "Swiss Franc", symbol: "Fr.", rate: 1.01, id: 4 },
       ];
 
-      const currencyOptions = currencyData.map(currency, (index) => (
+      const currencyOptions = currencyData.map((currency, index) => (
         <option key={currency.id} value={index}>
           {currency.name}
         </option>
